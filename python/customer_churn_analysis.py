@@ -59,6 +59,9 @@ IsActiveMember    0
 Churn             0
 dtype: int64
 
+# Convert 'Churn' column values from 'Yes'/'No' to 1/0 for numerical analysis
+df['Churn'] = df['Churn'].map({'Yes' : 1, 'No' : 0})
+
 # Checking the uniqueness of CustomerID
 print('There are duplicates in CustomerID' if df['CustomerID'].duplicated().any() else 'CustomerIDs are unique')
 CustomerIDs are unique
