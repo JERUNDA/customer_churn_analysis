@@ -36,9 +36,9 @@ python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 ```
 
-Install dependencies
+(Optional) Install necessary Python libraries:
 ```bash
-pip install -r requirements.txt
+pip install pandas matplotlib seaborn
 ```
 
 Place the CSV file in data/ and run the Python analysis
@@ -97,7 +97,6 @@ File: powerbi/customer_churn_analysis_dashboard.pbix
      -Churn rate by geography, contract type, and tenure
      -Overall churn rate card
      -Interactive filters for deeper insights
-
 License & Usage
 Dataset is provided by Kaggle for educational and analytical purposes.
 Scripts, queries, and presentation materials are free to use with attribution.
