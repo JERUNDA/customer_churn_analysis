@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Upload CSV and checking the first lines
-df = pd.read_csv(r'C:\temp\Large_Customer_Churn_Dataset.csv', sep =',', encoding = 'utf-8')
+df = pd.read_csv(r'C:\Large_Customer_Churn_Dataset.csv', sep =',', encoding = 'utf-8')
 print(df.head())
    CustomerID  Gender  Age Geography  Tenure  ... MonthlyCharges  TotalCharges  PaymentMethod IsActiveMember  Churn
 0     1000001    Male   34    France      14  ...          21.58       7933.34  Bank transfer              1     No
